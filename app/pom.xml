@@ -62,6 +62,12 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
+		<!-- Micrometer (used to adapt actuator data to Prometheus format)-->
+		<dependency>
+  			<groupId>io.micrometer</groupId>
+  			<artifactId>micrometer-registry-prometheus</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
