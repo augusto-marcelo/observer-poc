@@ -35,7 +35,7 @@ public class AutenticacaoController {
 
 		authUserErrors = Counter.builder("auth_user_error")
 				.description("erros de login")
-				.register(registry)
+				.register(registry);
 	}
 	
 	@Autowired
